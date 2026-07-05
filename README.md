@@ -51,8 +51,7 @@ scripts needed to reproduce the consolidated results.
 
 ## Data and code availability
 
-A DOI-bearing archive (Zenodo) will be minted at submission; the companion
-bio-a and bio-b repositories are archived separately.
+Archived at Zenodo: doi:10.5281/zenodo.21202213 (this study); companion analyses doi:10.5281/zenodo.21197822 (bio-a) and doi:10.5281/zenodo.21197824 (bio-b).
 
 ## Author
 

@@ -168,7 +168,7 @@ A single ancient fold, shared by the RNA-ring proteins of all three domains, mee
 
 ## Data Availability
 
-All analysis code and derived data are available in the project repository (https://github.com/Carlo-Broschi/bio-c_sm-fold-genome-reduction) and will be archived at Zenodo with a DOI at submission. Protein and genome accessions are listed in the supplementary material; predicted structures are regenerable from accessions via the provided scripts. The two companion analyses that this study consolidates are archived separately (bio-a Hfq: 10.5281/zenodo.21197822; bio-b Sm/Lsm: 10.5281/zenodo.21197824).
+All analysis code and derived data are available in the project repository (https://github.com/Carlo-Broschi/bio-c_sm-fold-genome-reduction) and archived at Zenodo (doi:10.5281/zenodo.21202213). Protein and genome accessions are listed in the supplementary material; predicted structures are regenerable from accessions via the provided scripts. The two companion analyses that this study consolidates are archived separately (bio-a Hfq: 10.5281/zenodo.21197822; bio-b Sm/Lsm: 10.5281/zenodo.21197824).
 
 ---
 
