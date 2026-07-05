@@ -19,7 +19,7 @@ The Sm/Lsm/Hfq superfamily builds the RNA-associated toroidal rings that underli
 
 ## Keywords
 
-Sm/Lsm proteins · Hfq · Genome reduction · DPANN · Asgard archaea · CPR/Patescibacteria · Molecular evolution · Structure-guided phylogenetics
+Sm/Lsm proteins · Hfq · Genome reduction · DPANN and Asgard archaea · Candidate Phyla Radiation · Molecular evolution
 
 ---
 
@@ -142,28 +142,22 @@ A single ancient fold, shared by the RNA-ring proteins of all three domains, mee
 
 ---
 
----
-
-## Data Availability
-
-All analysis code and derived data are available in the project repository (https://github.com/Carlo-Broschi/bio-c_sm-fold-genome-reduction) and archived at Zenodo (doi:10.5281/zenodo.21202213). Protein and genome accessions are listed in the supplementary material; predicted structures are regenerable from accessions via the provided scripts. The two companion analyses that this study consolidates are archived separately (bio-a Hfq: 10.5281/zenodo.21197822; bio-b Sm/Lsm: 10.5281/zenodo.21197824).
 
 ---
 
----
+## Statements and Declarations
 
-## Declarations
+**Funding.** No funding was received for this work.
 
-### Use of AI tools
+**Competing interests.** The author declares no competing interests.
 
-During this study the author used Anthropic's Claude — accessed through the Claude Code command-line interface (models in the Claude Opus 4 family) — as an assistive tool. Claude was used to help with: retrieval and parsing of protein and genome data from NCBI; writing and running the analysis pipelines (sequence curation, structure-guided alignment, maximum-likelihood and Bayesian phylogenetic inference, profile-HMM presence/absence censuses, and ESMFold/Foldseek structural verification); statistical analysis; generation of the figures; drafting and editing of the manuscript text; and compilation and formatting of the reference list. All study-design decisions, scientific interpretations, and conclusions were made by the author, who reviewed and verified the analyses and their outputs and takes full responsibility for the entire content of the manuscript, including any parts produced with AI assistance. To enable independent verification, all analysis code is publicly available (see Data Availability). In line with COPE guidance, AI tools are not listed as authors.
+**Ethics approval.** Not applicable (this study analyses only publicly available sequence and structure data).
 
-### Competing interests
+**Author contributions.** Minoru Nakai conceived and designed the study, performed all analyses, prepared the figures, and wrote the manuscript.
 
-The author declares no competing interests.
+**Data availability.** All analysis code and derived data are available in the project repository (https://github.com/Carlo-Broschi/bio-c_sm-fold-genome-reduction) and archived at Zenodo (doi:10.5281/zenodo.21202213). Protein and genome accessions are listed in the supplementary material; predicted structures are regenerable from accessions via the provided scripts. The two companion analyses that this study consolidates are archived separately (bio-a Hfq: 10.5281/zenodo.21197822; bio-b Sm/Lsm: 10.5281/zenodo.21197824).
 
----
-
+**Use of generative AI.** During this study the author used Anthropic's Claude — accessed through the Claude Code command-line interface (models in the Claude Opus 4 family) — as an assistive tool. Claude was used to help with: retrieval and parsing of protein and genome data from NCBI; writing and running the analysis pipelines (sequence curation, structure-guided alignment, maximum-likelihood and Bayesian phylogenetic inference, profile-HMM presence/absence censuses, and ESMFold/Foldseek structural verification); statistical analysis; generation of the figures; drafting and editing of the manuscript text; and compilation and formatting of the reference list. All study-design decisions, scientific interpretations, and conclusions were made by the author, who reviewed and verified the analyses and their outputs and takes full responsibility for the entire content of the manuscript, including any parts produced with AI assistance. To enable independent verification, all analysis code is publicly available (see Data Availability). In line with COPE guidance, AI tools are not listed as authors.
 ---
 
 ## References

@@ -8,7 +8,7 @@ repository `draft.md`; these are assembled views for two candidate venues.
 |---|---|---|
 | Journal | Genome Biology and Evolution (Article) | Journal of Molecular Evolution |
 | Section order | Methods **at the end** (GBE convention) | Methods **after Introduction** (standard) |
-| Front matter | **Significance statement** (GBE-required) | **Keywords** (JME) |
+| Front matter | **Significance statement** (GBE-required) | **Keywords** (6, Springer) |
 | In-text citations | author–date `(Author year)` | author–year `(Author year)` — same |
 | Reference list | GBE author–date, ≤5 authors listed else et al.; sentence-case titles | Springer name–year, **all authors**, `(year)`; journal names in full |
 | Access model | fully open access (APC) | hybrid (subscription route = no APC; work is already green-OA via the bioRxiv preprint + Zenodo) |
@@ -29,6 +29,8 @@ repository `draft.md`; these are assembled views for two candidate venues.
 3. **Supplementary Table S1** — `../supplementary_table_S1.md` (19 structural anchors).
 4. **bioRxiv** — post the preprint (`../preprint/bioc_preprint.pdf`) and do a last
    keyword check ("Hfq DPANN", "Sm fold CPR") for claim (c) before journal submission.
+
+**JME specifics applied** (per Springer guidelines, journal 239): research Article (~4,400 words body; JME Short Reviews are <3,000 words); Springer name–year references (all authors); a Springer **Statements and Declarations** block (Funding / Competing interests / Ethics approval / Author contributions / Data availability / Use of generative AI). Springer figure spec at upload: ≥300 dpi halftone, 600 dpi combination, TIFF/EPS/PDF.
 
 The author remains responsible for the content of both versions (see the AI-use
 disclosure in the manuscript Declarations).
