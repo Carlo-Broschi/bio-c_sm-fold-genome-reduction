@@ -138,9 +138,9 @@ A single ancient fold, shared by the RNA-ring proteins of all three domains, mee
 
 ## Figure legends
 
-**Figure 1.** Structure-guided Sm/Lsm/Hfq phylogeny across the three domains, tips coloured by protein type (Hfq / SmAP / Lsm / Sm-core). The bacterial Hfq clade is distinct while archaeal SmAP sequences fall among the eukaryotic Sm/Lsm assemblages.
+**Figure 1.** Structure-guided Sm/Lsm/Hfq phylogeny of the superfamily (1,101 sequences), shown as an unrooted fan with tips coloured by protein type in a colour-blind-safe palette (Hfq, vermillion; Lsm, blue; Sm-core, orange; archaeal SmAP, purple; unclassified, grey). The bacterial Hfq clade is distinct while archaeal SmAP sequences fall among the eukaryotic Sm/Lsm assemblages.
 
-**Figure 2.** Rooted maximum-likelihood phylogeny of the bacterial Hfq family (225 taxa) with ML/Bayesian support concordance mapped at internal nodes (both high / ML only / Bayes only / both weak); the archaeal SmAP outgroup is shown in bold at the base.
+**Figure 2.** Rooted maximum-likelihood phylogeny of the bacterial Hfq family (225 taxa). Internal-node dots show the concordance of node support between the ML and Bayesian analyses (both high / ML only / Bayes only / both weak), in a colour-blind-safe palette. For legibility only the five archaeal SmAP outgroup taxa are labelled (in bold, at the base, defining the root); the full phylum-annotated tree with all tip labels is Supplementary Figure S1.
 
 **Figure 3.** Hfq loss across bacteria (71 complete genomes, eight lifestyles). (A) Percentage of genomes encoding a detectable Hfq per lifestyle. (B) Hfq presence/absence versus genome size (log scale); reduction-associated loss occurs at small genomes, while the Actinobacteria and Myxococcus lack Hfq at large genome sizes (size-independent lineage loss).
 
