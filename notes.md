@@ -28,11 +28,22 @@ and shared census methodology).
 26 entries merged from bio-a (11) ∪ bio-b (23), 8 shared. See `REFERENCES_gbe_final.md`
 and `refs.bib`. All in-text citations resolve to a list entry (checked 2026-07-05).
 
-## Status / next steps
+## Status / next steps (updated 2026-07-05)
 
-- [x] Folder + figures + merged refs + metadata (CITATION.cff, .zenodo.json, LICENSE CC-BY-4.0)
+- [x] Folder + figures + merged refs (26) + metadata (CITATION.cff, .zenodo.json, LICENSE CC-BY-4.0)
 - [x] Integrated draft.md (framework + Finding 1 bacteria + Finding 2 archaea + synthesis)
-- [ ] git init + push + Zenodo (offered)
-- [ ] Table 1 rendered content (copy from bio-b) into draft
-- [ ] Compliance check (word/char/item counts vs GBE) and preprint PDF
-- [ ] Retire bio-a/bio-b as standalone submissions (keep repos as archived components)
+- [x] git init + push + **Zenodo DOI 10.5281/zenodo.21202213** (recorded in Data Availability/README)
+- [x] Table 1 rendered; Fig 2b → Supplementary Fig S1; GBE compliance all pass; preprint PDF built
+- [x] bio-a/bio-b marked archived components (README notes + reciprocal DOIs); not submitted independently
+- [x] **COPE AI-use disclosure + competing-interests** added (Declarations)
+- [x] **Comprehensive author self-check (approach A)** — see `REVIEW_selfcheck.md`. All §3.1–3.6 + Intro/Disc/Methods numbers traced to source; fixes: type-table traceability, TM ≥0.92→≥0.91, "peripheral" overclaim, stratified-sample framing.
+- [x] **Francisella reclassified** obligate_intracellular→facultative_host → obligate intracellular now 0/10; Actinobacteria framed as size-independent test group.
+- [x] Phylum 114/92 verified at tip level; Myxococcus Hfq-absence corroborated by literature.
+
+### Author action items still open (COPE accountability — author must own)
+- [~] Independent structure-guided IQ-TREE re-run: **UFBoot 43% reproduced exactly**; full re-inference running (bg watcher), confirm logL/topology on completion.
+- [ ] Read through draft; be able to explain each claim in own words.
+- [ ] (optional) confirm Coxiella obligate-vs-facultative call.
+
+### Remaining before submission (author, when funds available)
+- bioRxiv upload (`_biorxiv/bioc_preprint.pdf`); GBE/MBE submission (CMYK TIFF at upload); Zotero-formatted refs.
