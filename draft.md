@@ -172,6 +172,18 @@ All analysis code and derived data are available in the project repository (http
 
 ---
 
+## Declarations
+
+### Use of AI tools
+
+During this study the author used Anthropic's Claude — accessed through the Claude Code command-line interface (models in the Claude Opus 4 family) — as an assistive tool. Claude was used to help with: retrieval and parsing of protein and genome data from NCBI; writing and running the analysis pipelines (sequence curation, structure-guided alignment, maximum-likelihood and Bayesian phylogenetic inference, profile-HMM presence/absence censuses, and ESMFold/Foldseek structural verification); statistical analysis; generation of the figures; drafting and editing of the manuscript text; and compilation and formatting of the reference list. All study-design decisions, scientific interpretations, and conclusions were made by the author, who reviewed and verified the analyses and their outputs and takes full responsibility for the entire content of the manuscript, including any parts produced with AI assistance. To enable independent verification, all analysis code is publicly available (see Data Availability). In line with COPE guidance, AI tools are not listed as authors.
+
+### Competing interests
+
+The author declares no competing interests.
+
+---
+
 ## References
 
 <!-- 最終リストは REFERENCES_gbe_final.md（26件）。投稿時に本文引用と最終照合。 -->
