@@ -83,7 +83,7 @@ Gene-name–based retrieval of 6,103 sequences proved substantially contaminated
 
 The structure-guided three-domain tree (1,101 sequences, 184 sites; Q.INSECT+G4) recovers the terminal and mid-depth clades but leaves the deep backbone poorly resolved (only 43% of internal branches reach UFBoot ≥ 95; the bootstrap did not converge). A plain-sequence control alignment gave essentially the same picture (48%, again non-convergent), so structural guidance produced a principled, structurally-calibrated core but did not improve deep-node resolution. This intrinsic limit was already apparent to Veretnik et al. (2009), who reported that including a bacterial outgroup reduced bootstrap support throughout their tree, attributing it to the short, poorly-alignable core shared across domains. We therefore use the tree as a scaffold.
 
-Within bacteria, the focused Hfq family is far better behaved. Over 225 taxa (254 aligned sites, 139 parsimony-informative), the maximum-likelihood and Bayesian trees agree closely where support is high: of 91 ML branches with UFBoot ≥ 95, 86 (94.5%) are recovered in the Bayesian consensus (median PP of matched branches 0.92), and the five archaeal SmAP outgroup sequences form a single bipartition in both trees, permitting consistent rooting (Fig. 2). Disagreement is confined to the poorly-supported deep backbone. The rooted Hfq phylogeny broadly recapitulates bacterial phylum-level taxonomy, with Pseudomonadota (114 tips) and Bacillota (92 tips) each forming largely coherent assemblages (Fig. 2b) — the pattern expected under predominantly vertical inheritance. Ten verified tips (the longest branch plus removed rogues) were all confirmed as genuine Hfq folds by ESMFold + Foldseek.
+Within bacteria, the focused Hfq family is far better behaved. Over 225 taxa (254 aligned sites, 139 parsimony-informative), the maximum-likelihood and Bayesian trees agree closely where support is high: of 91 ML branches with UFBoot ≥ 95, 86 (94.5%) are recovered in the Bayesian consensus (median PP of matched branches 0.92), and the five archaeal SmAP outgroup sequences form a single bipartition in both trees, permitting consistent rooting (Fig. 2). Disagreement is confined to the poorly-supported deep backbone. The rooted Hfq phylogeny broadly recapitulates bacterial phylum-level taxonomy, with Pseudomonadota (114 tips) and Bacillota (92 tips) each forming largely coherent assemblages (Fig. S1) — the pattern expected under predominantly vertical inheritance. Ten verified tips (the longest branch plus removed rogues) were all confirmed as genuine Hfq folds by ESMFold + Foldseek.
 
 ### 3.3 Hfq is repeatedly lost under bacterial genome reduction, in two modes
 
@@ -130,20 +130,23 @@ A single ancient fold, shared by the RNA-ring proteins of all three domains, mee
 | Item | Caption |
 |------|---------|
 | Fig. 1 | Structure-guided Sm/Lsm/Hfq phylogeny across the three domains, tips coloured by type (Hfq / SmAP / Lsm / Sm-core). |
-| Fig. 2 | Rooted, dual-method bacterial Hfq phylogeny (225 taxa): ML/Bayesian support concordance at internal nodes; archaeal SmAP outgroup bold at the base. Phylum-coloured version, Fig. 2b. |
+| Fig. 2 | Rooted, dual-method bacterial Hfq phylogeny (225 taxa): ML/Bayesian support concordance at internal nodes; archaeal SmAP outgroup bold at the base. |
 | Fig. 3 | Hfq loss across bacteria. (A) Hfq retention by lifestyle; (B) Hfq presence/absence versus genome size, showing reduction-associated loss and size-independent lineage loss (Actinobacteria, Myxococcus). |
 | Fig. 4 | (A) Sm-fold distribution across the reduced-genome radiations: DPANN/Asgard archaea retain, CPR bacteria have lost; (B) structural verification — all 55 archaeal ESMFold hits match a Sm-fold anchor by Foldseek (TM-score ≥ 0.92, median 0.97). |
 | Table 1 | Sm/Lsm and Hfq counts per DPANN/Asgard/CPR lineage (genome- and species-level), with completeness. |
+| Fig. S1 | The bacterial Hfq phylogeny of Fig. 2 coloured by bacterial phylum (Supplementary). |
 
 ## Figure legends
 
 **Figure 1.** Structure-guided Sm/Lsm/Hfq phylogeny across the three domains, tips coloured by protein type (Hfq / SmAP / Lsm / Sm-core). The bacterial Hfq clade is distinct while archaeal SmAP sequences fall among the eukaryotic Sm/Lsm assemblages.
 
-**Figure 2.** Rooted maximum-likelihood phylogeny of the bacterial Hfq family (225 taxa) with ML/Bayesian support concordance mapped at internal nodes (both high / ML only / Bayes only / both weak); the archaeal SmAP outgroup is shown in bold at the base. **Figure 2b** shows the same tree coloured by bacterial phylum.
+**Figure 2.** Rooted maximum-likelihood phylogeny of the bacterial Hfq family (225 taxa) with ML/Bayesian support concordance mapped at internal nodes (both high / ML only / Bayes only / both weak); the archaeal SmAP outgroup is shown in bold at the base.
 
 **Figure 3.** Hfq loss across bacteria (71 complete genomes, eight lifestyles). (A) Percentage of genomes encoding a detectable Hfq per lifestyle. (B) Hfq presence/absence versus genome size (log scale); reduction-associated loss occurs at small genomes, while the Actinobacteria and Myxococcus lack Hfq at large genome sizes (size-independent lineage loss).
 
 **Figure 4.** (A) Sm-fold distribution across the two prokaryotic reduced-genome radiations: DPANN/Asgard archaea retain Sm/Lsm while CPR bacteria have lost it (0/393 Saccharibacteria etc.). (B) Structural verification: all 55 archaeal ESMFold hits match an experimental Sm-fold anchor by Foldseek (TM-score ≥ 0.92, median 0.97).
+
+**Figure S1 (Supplementary).** The rooted bacterial Hfq phylogeny of Figure 2, coloured by bacterial phylum; Pseudomonadota and Bacillota each form largely coherent assemblages.
 
 **Table 1.** Sm/Lsm and Hfq incidence across the sampled reduced-genome radiations. Genome and species counts are after CheckM completeness filtering (≥50% complete, ≤10% contaminated); "genomes with Sm/Lsm" and "genomes with Hfq" count genomes carrying at least one PF01423 (Sm/Lsm) or PF17209 (Hfq) hit, respectively; "Sm/Lsm hits" and "Hfq hits" are total domain hits summed over genomes; mean completeness is the CheckM mean over each lineage's genomes. Every archaeal lineage retains the Sm fold in nearly all assessable genomes, whereas the bacterial CPR radiation carries neither Sm/Lsm nor Hfq in any of 397 genomes despite comparable assembly completeness — excluding low completeness as an explanation for the bacterial absence.
 
