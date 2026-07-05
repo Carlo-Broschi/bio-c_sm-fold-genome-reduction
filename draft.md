@@ -97,7 +97,7 @@ Applying the completeness-filtered dual-HMM pipeline to the bacterial reduced-ge
 
 ### 3.5 DPANN and Asgard archaea retain the Sm fold
 
-In sharp contrast to the bacterial losses, reduced-genome archaea retain the fold. Applying the completeness-filtered dual-HMM pipeline to 50 quality DPANN/Asgard genomes detected Sm/Lsm proteins in all six lineages with sufficient genome quality (Nanoarchaeota, Asgardarchaeota, Lokiarchaeia, Parvarchaeota, Micrarchaeota, Nanohaloarchaeota); all 70 hits typed as Sm/Lsm and none as Hfq. All sampled Lokiarchaeia (Asgard), including the cultured *Promethearchaeum syntrophicum*, retain the fold, as does the DPANN type species *Nanoarchaeum equitans*. This extends to the reduced-genome, MAG-dominated DPANN and Asgard lineages the broad retention of Lsm proteins previously reported across cultured archaea (Payá & Bonete 2023). All 55 hits that yielded confident ESMFold models matched an experimental Sm-fold anchor by Foldseek (TM-score ≥ 0.91; median 0.97), and 49/55 were closest to an archaeal Sm anchor (Fig. 4). That some DPANN/Asgard archaea encode Sm-like proteins was already indicated qualitatively (Reichelt et al. 2018); our contribution is the systematic, completeness-controlled, structurally-verified quantification and its contrast with the bacterial losses.
+In sharp contrast to the bacterial losses, reduced-genome archaea retain the fold. Applying the completeness-filtered dual-HMM pipeline to 50 quality DPANN/Asgard genomes detected Sm/Lsm proteins in all six lineages with sufficient genome quality (Nanoarchaeota, Asgardarchaeota, Lokiarchaeia, Parvarchaeota, Micrarchaeota, Nanohaloarchaeota); all 70 hits typed as Sm/Lsm and none as Hfq. All sampled Lokiarchaeia (Asgard), including the cultured *Promethearchaeum syntrophicum*, retain the fold, as does the DPANN type species *Nanoarchaeum equitans*. This extends to the reduced-genome, MAG-dominated DPANN and Asgard lineages the broad retention of Lsm proteins previously reported across cultured archaea (Payá & Bonete 2023). All 55 hits that yielded confident ESMFold models matched an experimental Sm-fold anchor by Foldseek (TM-score ≥ 0.91; median 0.97), and 49/55 were closest to an archaeal Sm anchor (Fig. 4); a representative superposition of an ESMFold model on its experimental anchor is shown in Figure 5. That some DPANN/Asgard archaea encode Sm-like proteins was already indicated qualitatively (Reichelt et al. 2018); our contribution is the systematic, completeness-controlled, structurally-verified quantification and its contrast with the bacterial losses.
 
 ### 3.6 A domain-level asymmetry in Sm-fold fate under genome reduction
 
@@ -133,6 +133,7 @@ A single ancient fold, shared by the RNA-ring proteins of all three domains, mee
 | Fig. 2 | Rooted, dual-method bacterial Hfq phylogeny (225 taxa): ML/Bayesian support concordance at internal nodes; archaeal SmAP outgroup bold at the base. |
 | Fig. 3 | Hfq loss across bacteria. (A) Hfq retention by lifestyle; (B) Hfq presence/absence versus genome size, showing reduction-associated loss and size-independent lineage loss (Actinobacteria, Myxococcus). |
 | Fig. 4 | (A) Sm-fold distribution across the reduced-genome radiations: DPANN/Asgard archaea retain, CPR bacteria have lost; (B) structural verification — all 55 archaeal ESMFold hits match a Sm-fold anchor by Foldseek (TM-score ≥ 0.91, median 0.97). |
+| Fig. 5 | Structural verification example: an archaeal ESMFold model superposed on its experimental Sm-fold anchor. |
 | Table 1 | Sm/Lsm and Hfq counts per DPANN/Asgard/CPR lineage (genome- and species-level), with completeness. |
 | Fig. S1 | The bacterial Hfq phylogeny of Fig. 2 coloured by bacterial phylum (Supplementary). |
 
@@ -145,6 +146,8 @@ A single ancient fold, shared by the RNA-ring proteins of all three domains, mee
 **Figure 3.** Hfq loss across bacteria (71 complete genomes, eight lifestyles). (A) Percentage of genomes encoding a detectable Hfq per lifestyle. (B) Hfq presence/absence versus genome size (log scale); reduction-associated loss occurs at small genomes, while the Actinobacteria and Myxococcus lack Hfq at large genome sizes (size-independent lineage loss).
 
 **Figure 4.** (A) Sm-fold distribution across the two prokaryotic reduced-genome radiations: DPANN/Asgard archaea retain Sm/Lsm while CPR bacteria have lost it (0/393 Saccharibacteria etc.). (B) Structural verification: all 55 archaeal ESMFold hits match an experimental Sm-fold anchor by Foldseek (TM-score ≥ 0.91, median 0.97).
+
+**Figure 5.** Structural verification of an archaeal Sm/Lsm hit. The ESMFold model of a representative DPANN/Asgard hit (rainbow, N→C terminus) is superposed on its best-matching experimental Sm-fold anchor (PDB 1I4K; grey), showing the canonical Sm fold — an N-terminal α-helix over a bent five-stranded antiparallel β-sheet (Foldseek TM-score 0.97). All 55 confidently modelled hits matched an experimental Sm-fold anchor in this way (Fig. 4B).
 
 **Figure S1 (Supplementary).** The rooted bacterial Hfq phylogeny of Figure 2, coloured by bacterial phylum; Pseudomonadota and Bacillota each form largely coherent assemblages.
 
