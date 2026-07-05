@@ -90,6 +90,19 @@ logic (true-absence pipeline). All underlying quantities verified in §3.3–3.5
 
 ---
 
+## Introduction / Discussion / Methods — claim & citation review
+
+| Claim | Support / citation | Status |
+|---|---|---|
+| Veretnik 2009: 335 seqs / 80 species / ClustalW + PhyML | verified against the paper (primary read) | ✅ |
+| "eukaryotic Sm/Lsm derives from an archaeal ancestor" | Collins & Mabbutt 2001; Törő et al. 2001 (support archaeal Sm ancestry) | ✅ |
+| Novelty: not first detection of DPANN/Asgard Sm | Reichelt et al. 2018 already showed it — explicitly credited; "we do not claim first detection" | ✅ honest |
+| Functional-dispensability explanation (archaeal SmAP core RNA metabolism) | Reichelt et al. 2023 (exosome/ribosome/RNAP/RNA-modification), flagged "census-untested" | ✅ hedged |
+| **Hfq "peripheral"** | over-statement — Hfq is central in bacteria that have it | ⚠→✅ reworded to "specialized … evidently dispensable in many lineages (as its repeated loss here shows)"; dropped "peripheral" (×2) |
+| Myxococcus lacks Hfq (size-independent loss example) | our census (0/2) **corroborated** by literature: *M. xanthus* has no hfq homolog (Pxr sRNA is Hfq-independent) | ✅ (independently supported) |
+| Actinobacteria canonical Hfq absent | our census (0/8) + long-standing reports; caveat re: cut_ga stated | ✅ |
+| "structure-guided from 19 experimental structures" | `0-literature/structural_anchors.md` (A1–A11 + B) | ✅ (author to re-confirm the count is exactly 19) |
+
 ### Author action items surfaced by the review
 - [ ] Independently re-run the structure-guided IQ-TREE to reconfirm 43%/logL (marked "pending" in prior QC).
 - [ ] Re-confirm phylum counts (114/92) from `genus_taxonomy.tsv`.
