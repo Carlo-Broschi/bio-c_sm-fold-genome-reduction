@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: >-
+  The fate of the Sm fold under genome reduction: a structure-informed
+  phylogeny across the three domains of life
+abstract: >-
+  Analysis code and derived data for an integrated study of the Sm/Lsm/Hfq
+  superfamily: a structure-guided three-domain phylogeny, a dual-method
+  bacterial Hfq phylogeny, a completeness-controlled census of Hfq loss across
+  bacterial lifestyles, and a structurally-verified census of Sm-fold retention
+  in DPANN/Asgard archaea versus loss in the bacterial CPR radiation.
+type: software
+authors:
+  - family-names: Nakai
+    given-names: Minoru
+    email: vivaldi.rv484@gmail.com
+license: CC-BY-4.0
+repository-code: "https://github.com/Carlo-Broschi/bio-c_sm-fold-genome-reduction"
+keywords:
+  - phylogenetics
+  - Sm/Lsm
+  - Hfq
+  - genome reduction
+  - DPANN
+  - Asgard archaea
+  - CPR / Patescibacteria
+  - endosymbiont
+  - molecular evolution
