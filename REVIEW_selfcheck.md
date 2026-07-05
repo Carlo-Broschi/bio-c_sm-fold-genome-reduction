@@ -71,8 +71,22 @@ values.** The correlation is therefore not inflated by pseudoreplication. ✅
 | 393 Saccharibacteria, 15 species | `census_lineage_cpr.tsv` (n_species=15) | — | ✅ |
 | **843 ribosomal-protein annotations** | `proteomes_cpr/*.faa` header grep `ribosomal protein` = **843 exact** | — | ✅ (draft wording "ribosomal-protein" is precise; broad "ribosomal" = 867) |
 | 70 archaeal hits = positive control | `bio-b/3-analysis/hmm/census_lineage.tsv` | `hmm_type_census.py` | ✅ |
-## §3.5 Archaeal retention  — PENDING
-## §3.6 Synthesis  — PENDING
+## §3.5 Archaeal retention
+
+| Claim / number | Source (file) | Script | Status |
+|---|---|---|---|
+| 50 genomes, 6 assessable lineages | `bio-b/3-analysis/hmm/census_lineage.tsv` (sums to 50 / 6 rows) | `hmm_type_census.py` | ✅ |
+| 70 Sm/Lsm hits (44 genomes carry ≥1) | `census_lineage.tsv` (Sm/Lsm hits col sums 70; genomes-with = 44) | `hmm_type_census.py` | ✅ |
+| all typed Sm/Lsm, none Hfq | `census_lineage.tsv` (genomes_with_Hfq = 0 all lineages) | — | ✅ |
+| 55/55 structural verification; median 0.97 | `smfold_foldseek_verification.tsv` (min 0.918, max 0.999, median 0.9670; is_sm_fold True ×55) | `verify_smfold_foldseek.py` | ✅ |
+| **TM-score bound** | actual min = **0.918** | — | ⚠→✅ changed "≥ 0.92" to **"≥ 0.91"** (Abstract, Fig 4 caption/table; bio-b + submission mirrored) — 3 hits are 0.918–0.920 so "≥0.92" was not strictly true |
+| 49/55 closest to an archaeal Sm anchor | anchor classification: archaeal 1I5L 14 + 1I4K 11 + 1M5Q 9 + 1I8F 8 + 1M8V 4 + 1H64 3 = **49**; non-archaeal 1D3B 4 + 6GWK 2 = 6 | `structural_anchors.md` + verification tsv | ✅ |
+
+## §3.6 Synthesis
+
+Interpretive section; introduces **no new numbers**. Restates the domain-level asymmetry
+(bacterial repeated loss §3.3/§3.4 + archaeal retention §3.5) and the internal-control
+logic (true-absence pipeline). All underlying quantities verified in §3.3–3.5. ✅
 
 ---
 
