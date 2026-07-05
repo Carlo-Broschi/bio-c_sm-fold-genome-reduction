@@ -40,7 +40,7 @@ scripts needed to reproduce the consolidated results.
 
 | Path | Contents |
 |------|----------|
-| `4-results/` | Final figures (Fig 1–4) |
+| `4-results/` | Final figures (Fig 1–5 + Fig S1) |
 | `scripts/analytics/` | Census / comparison scripts (Hfq census, HMM census, ML/Bayes compare) |
 | `scripts/viz/` | Figure scripts |
 | `3-analysis/` | Key census result tables |

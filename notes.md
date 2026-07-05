@@ -25,8 +25,10 @@ and shared census methodology).
 
 ## Reference set
 
-26 entries merged from bio-a (11) ∪ bio-b (23), 8 shared. See `REFERENCES_gbe_final.md`
-and `refs.bib`. All in-text citations resolve to a list entry (checked 2026-07-05).
+Merged from bio-a (11) ∪ bio-b (23), 8 shared = 26 baseline; **expanded to 39 entries**
+(2026-07-05) after the GBE benchmark + novelty/scoop check added 8 foundational + 5
+positioning citations (all DOIs CrossRef-verified). See `REFERENCES_gbe_final.md` and
+`refs.bib`. All in-text citations resolve to a list entry.
 
 ## Status / next steps (updated 2026-07-05)
 
@@ -39,6 +41,9 @@ and `refs.bib`. All in-text citations resolve to a list entry (checked 2026-07-0
 - [x] **Comprehensive author self-check (approach A)** — see `REVIEW_selfcheck.md`. All §3.1–3.6 + Intro/Disc/Methods numbers traced to source; fixes: type-table traceability, TM ≥0.92→≥0.91, "peripheral" overclaim, stratified-sample framing.
 - [x] **Francisella reclassified** obligate_intracellular→facultative_host → obligate intracellular now 0/10; Actinobacteria framed as size-independent test group.
 - [x] Phylum 114/92 verified at tip level; Myxococcus Hfq-absence corroborated by literature.
+- [x] **GBE benchmark + expansion (2026-07-05)**: refs 26→39, body ~2,600→~4,400 words; Methods/Intro/Discussion expanded; figures made colour-blind-safe (Okabe-Ito), titles removed, Fig 2 legibility, **structure Fig 5 + Supplementary Table S1 (19 anchors) added**.
+- [x] **Novelty/scoop check** (positioning citations added) and **final background peer review** — no scientific blocker/major; Supplementary Table S1 + 8 minor findings resolved.
+- [x] **Two submission-format versions built** (`submission/gbe/`, `submission/jme/`, both PDF, in git). JME references verified against a real recent JME article → first-3-authors-+"et al" (no period), "Conflict of interest" heading. **Strategy: submit to JME first (no APC via subscription route), GBE if rejected.**
 
 ### Author action items still open (COPE accountability — author must own)
 - [~] Independent structure-guided IQ-TREE re-run: **UFBoot 43% reproduced exactly**; full re-inference running (bg watcher), confirm logL/topology on completion.
