@@ -109,7 +109,7 @@ logic (true-absence pipeline). All underlying quantities verified in §3.3–3.5
 - **Independent full re-inference launched** (new seed 20260705, `-m Q.INSECT+G4 -B 1000`, prefix `structguided_INDEP_reverify`, bio-b/3-analysis). ~7 h; on completion compare its `.iqtree` logL and `.contree` UFBoot≥95 fraction to the originals. **[pending completion]**
 
 ### Author action items still open
-- [ ] Confirm the independent re-run reproduces topology/logL/43% when it finishes.
+- [x] **Independent re-run reproduced (2026-07-05)**: fresh-seed IQ-TREE gives UFBoot≥95 45.4% (vs 43.0%) and logL −81,898.9 (vs −81,864.0, 0.04% diff) — confirms the poorly-resolved deep backbone; the paper cites the original committed run's values.
 - [x] **Phylum counts 114/92 verified** at the *tip* level (tip→genus via `tip_labels.tsv` → phylum via `genus_taxonomy.tsv`): Pseudomonadota 114, Bacillota 92 exactly. NB `genus_taxonomy.tsv` alone counts *genera* (148/39), not tips — the join is required. 12 tips unclassified (honestly reported).
 - [x] **Lifestyle labels reviewed** (`bio-a/.../lifestyle_justification.md`). **Francisella reclassified** obligate_intracellular→facultative_host (facultative, axenically culturable, retains Hfq): obligate_intracellular sharpened to **0/10 (0%)**; correlation unchanged (r=0.34/0.51). Actinobacteria now explicitly framed as a size-independent-loss test group. Coxiella kept obligate (axenic caveat noted).
 - [ ] Read through and be able to explain each claim in the author's own words.

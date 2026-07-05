@@ -45,7 +45,7 @@ scripts needed to reproduce the consolidated results.
 | `scripts/viz/` | Figure scripts |
 | `3-analysis/` | Key census result tables |
 | `draft.md` | Integrated manuscript |
-| `REFERENCES_gbe_final.md` | Merged 26-entry GBE reference list |
+| `REFERENCES_gbe_final.md` | Merged 39-entry GBE reference list |
 | `refs.bib` | Merged BibTeX (Zotero import) |
 | `notes.md` | Assembly log and provenance |
 
