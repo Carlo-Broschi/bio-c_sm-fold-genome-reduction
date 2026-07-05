@@ -103,7 +103,15 @@ logic (true-absence pipeline). All underlying quantities verified in §3.3–3.5
 | Actinobacteria canonical Hfq absent | our census (0/8) + long-standing reports; caveat re: cut_ga stated | ✅ |
 | "structure-guided from 19 experimental structures" | `0-literature/structural_anchors.md` (A1–A11 + B) | ✅ (author to re-confirm the count is exactly 19) |
 
-### Author action items surfaced by the review
-- [ ] Independently re-run the structure-guided IQ-TREE to reconfirm 43%/logL (marked "pending" in prior QC).
+### Action item 1 — structure-guided IQ-TREE reconfirmation (2026-07-05)
+- **UFBoot ≥ 95 = 470/1092 = 43.0%** recomputed from the committed `.contree` → **exactly reproduces the reported "43%"**. ✅
+- **logL**: the reported −81,864.04 is the value in the committed `.iqtree` from the original run (correct to cite). A quick *fixed-tree* re-evaluation (`-te treefile -m Q.INSECT+G4`) gives −81,927.9 — a ~64-unit difference expected from re-optimising branch lengths/model on the fixed topology; not an error, a different computation.
+- **Independent full re-inference launched** (new seed 20260705, `-m Q.INSECT+G4 -B 1000`, prefix `structguided_INDEP_reverify`, bio-b/3-analysis). ~7 h; on completion compare its `.iqtree` logL and `.contree` UFBoot≥95 fraction to the originals. **[pending completion]**
+
+### Author action items still open
+- [ ] Confirm the independent re-run reproduces topology/logL/43% when it finishes.
 - [ ] Re-confirm phylum counts (114/92) from `genus_taxonomy.tsv`.
+- [ ] Justify the lifestyle labels in `taxa_lifestyle.tsv`.
+- [ ] Read through and be able to explain each claim in the author's own words.
 - [x] Traceability: definitive structure-guided type table committed.
+- [x] UFBoot 43% reproduced; TM bound corrected; "peripheral" overclaim reworded.
