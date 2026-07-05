@@ -115,3 +115,19 @@ logic (true-absence pipeline). All underlying quantities verified in §3.3–3.5
 - [ ] Read through and be able to explain each claim in the author's own words.
 - [x] Traceability: definitive structure-guided type table committed.
 - [x] UFBoot 43% reproduced; TM bound corrected; "peripheral" overclaim reworded.
+
+## Claude Science final peer review (2026-07-05) — findings resolved
+
+Independent critical review: **no blocker/major scientific error**; all headline numbers
+reproduced exactly, 39 DOIs correct, figures match captions, stats/hedging/novelty/ethics pass.
+
+- **M1 (major, documentation)** — Supplementary Table S1 was referenced but did not exist → **created** `supplementary_table_S1.md` (19 anchor PDBs, domain, organism, DOI).
+- **m1** — draft References footer "26 entries" → **39**.
+- **m2** — "19 structures dereplicated into 25 seed" arithmetic → **clarified** (per-chain extraction from multi-subunit rings before dereplication).
+- **m3** — in-text "Collins & Mabbutt 2001" (6 auth) → **Collins et al. 2001**; "Payá & Bonete 2023" (5 auth) → **Payá et al. 2023**.
+- **m4** — stale committed `hfq_by_lifestyle.tsv` (pre-Francisella) → **refreshed** (Fig 3A had used the authoritative per-genome file, so no figure/text error).
+- **m5** — DPANN nine + Asgard five vs six assessable → **reconciled** in §3.5 (fourteen sampled, eight data-insufficient).
+- **m6** — point-biserial without p/CI → **added** (r = 0.34, p = 3.5×10⁻³, 95% CI 0.12–0.53).
+- **m7** — "Reichelt 2018 indicated qualitatively" undersold its EFI analysis → **reworded** (sequence-based EFI analysis).
+- **m8** — Fig 3A colour key → **added to caption** (≥50% blue, <50% red).
+- **Could-not-verify (links)** — confirmed independently: all three repos **PUBLIC**; Zenodo bio-c DOI live (HTTP 302).
