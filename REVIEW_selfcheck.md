@@ -37,8 +37,40 @@ were already correct.
 | Phyla Pseudomonadota 114 / Bacillota 92 | `bio-a/4-results/genus_taxonomy.tsv` | `build_taxonomy.py` | ✅ (to re-confirm) |
 | 10/10 tip structural verification | `bio-a/4-results/bioa_verify_foldseek.tsv` | `predict_verify_targets.py` | ✅ |
 
-## §3.3 Hfq two-mode loss census  — PENDING (next)
-## §3.4 CPR total loss  — PENDING
+## §3.3 Hfq two-mode loss census
+
+| Claim / number | Source (file) | Script | Status |
+|---|---|---|---|
+| 71 complete genomes, 37 taxa, 8 lifestyles | `bio-a/3-analysis/hfq_census/{bact_manifest,taxa_lifestyle}.tsv` | `fetch_bact_proteomes.py` | ✅ |
+| Retention by lifestyle (88/73/100/0/17/18/0/0 %) | `hfq_census.tsv` (recomputed, matches draft exactly) | `hfq_census.py` | ✅ |
+| Hfq+ median 4.1 Mb vs Hfq− 1.2 Mb | `hfq_census.tsv` (4.12 / 1.18) | `hfq_census.py` | ✅ |
+| point-biserial r = 0.34; 0.51 excl. Actinobacteria | `hfq_census.py` output | `hfq_census.py` | ✅ |
+| Lineage medians (endo 0.64 / mollicute 0.82 / intra 1.48 Mb) | `hfq_by_lifestyle.tsv` | `hfq_census.py` | ✅ |
+| Actinobacteria 0/8 at 3–9 Mb; Myxococcus 9 Mb; Wigglesworthia/Baumannia/Francisella retain | `hfq_census.tsv` (per-genome) | — | ✅ |
+
+**Robustness (pseudoreplication).** cap=2 gives ≤2 genomes/taxon; 34 taxa have >1 genome
+but only 1 shows within-taxon Hfq± disagreement. Collapsing to taxon medians (n=37):
+**r = 0.341 overall, 0.506 excl. Actinobacteria — essentially identical to the genome-level
+values.** The correlation is therefore not inflated by pseudoreplication. ✅
+
+**Author must own (defensible, not errors):**
+- The 37-taxon set is a **stratified, illustrative sample across lifestyles, not a random
+  survey** of bacterial diversity; per-lifestyle rates are illustrative, the size–presence
+  relationship is the robust result. Frame as such (see suggested wording).
+- **Lifestyle labels** (`taxa_lifestyle.tsv`) are a curated classification; each assignment
+  (e.g. Francisella "obligate intracellular", Coxiella) must be justifiable by the author.
+- **Absence = no detectable Hfq at `--cut_ga`**; a divergent sub-threshold homolog cannot be
+  excluded (Actinobacteria, Myxococcus) — already stated as a caveat in the draft. ✅
+
+## §3.4 CPR total loss
+
+| Claim / number | Source (file) | Script | Status |
+|---|---|---|---|
+| 0/397 (Saccharibacteria 393 + Absconditabacteria 3 + Patescibacteria 1) | `bio-b/3-analysis/hmm/census_lineage_cpr.tsv` | `hmm_type_census.py` | ✅ |
+| 290,425 predicted proteins; mean 731/genome | `cpr_manifest.tsv` (sum=290425; 290425/397=731.5) | `fetch_dpann_asgard_proteomes.py --tag cpr` | ✅ |
+| 393 Saccharibacteria, 15 species | `census_lineage_cpr.tsv` (n_species=15) | — | ✅ |
+| **843 ribosomal-protein annotations** | `proteomes_cpr/*.faa` header grep `ribosomal protein` = **843 exact** | — | ✅ (draft wording "ribosomal-protein" is precise; broad "ribosomal" = 867) |
+| 70 archaeal hits = positive control | `bio-b/3-analysis/hmm/census_lineage.tsv` | `hmm_type_census.py` | ✅ |
 ## §3.5 Archaeal retention  — PENDING
 ## §3.6 Synthesis  — PENDING
 
