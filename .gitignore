@@ -42,3 +42,6 @@ Thumbs.db
 # ESMFold predicted structures (regenerable via API)
 3-analysis/predicted/
 3-analysis/foldseek_tmp/
+
+# local PDF library (copyrighted publisher PDFs — do not publish)
+refs/
