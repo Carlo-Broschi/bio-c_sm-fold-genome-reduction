@@ -25,10 +25,14 @@ and shared census methodology).
 
 ## Reference set
 
-Merged from bio-a (11) ∪ bio-b (23), 8 shared = 26 baseline; **expanded to 39 entries**
+Merged from bio-a (11) ∪ bio-b (23), 8 shared = 26 baseline; expanded to 39 entries
 (2026-07-05) after the GBE benchmark + novelty/scoop check added 8 foundational + 5
-positioning citations (all DOIs CrossRef-verified). See `REFERENCES_gbe_final.md` and
-`refs.bib`. All in-text citations resolve to a list entry.
+positioning citations; **further expanded to 48 entries (2026-07-07)** by adding 9
+structural/evolutionary Sm/Lsm/Hfq references surfaced in an Obsidian score≥8
+citation-gap check (Arluison 2006, Murina & Nikulin 2011, Mura 2013, Stanek 2017,
+Wilusz 2013, Krchňáková 2017, Lekontseva 2020/2021, Mu 2025) — each CrossRef-verified
+and given an in-text anchor (Intro structural/function/spliceosome-evolution paras; §3.5).
+See `REFERENCES_gbe_final.md` and `refs.bib`. All in-text citations resolve to a list entry.
 
 ## Status / next steps (updated 2026-07-05)
 
