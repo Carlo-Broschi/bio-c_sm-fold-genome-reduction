@@ -1,5 +1,8 @@
 # The fate of the Sm fold under genome reduction (bio-c)
 
+![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python) ![R](https://img.shields.io/badge/R-4.x-276DC3?logo=r) ![IQ-TREE](https://img.shields.io/badge/IQ--TREE3-ML-green) ![MrBayes](https://img.shields.io/badge/MrBayes-Bayesian-orange) ![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.21202213-blue)
+
+
 **Project ID:** bio-c (integrated) · **Status:** Draft assembly (2026-07)
 **Target journal:** Genome Biology and Evolution / Molecular Biology and Evolution
 **Author:** Minoru Nakai — Independent Researcher
