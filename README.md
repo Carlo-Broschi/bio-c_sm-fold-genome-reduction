@@ -1,5 +1,8 @@
 # The fate of the Sm fold under genome reduction (bio-c)
 
+[![Status](https://img.shields.io/badge/status-draft-lightgrey)]()
+[![Venue](https://img.shields.io/badge/target-Genome%20Biology%20and%20Evolution-lightgrey)]()
+
 ![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python) ![R](https://img.shields.io/badge/R-4.x-276DC3?logo=r) ![IQ-TREE](https://img.shields.io/badge/IQ--TREE3-ML-green) ![MrBayes](https://img.shields.io/badge/MrBayes-Bayesian-orange) ![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.21202213-blue)
 
 
